@@ -4,6 +4,7 @@ body {
   /*background-position: center;*/
   background-size: cover;
   font-family: 'Cantarell', sans-serif;
+
 }
 
 
@@ -16,6 +17,8 @@ body {
 }
 
 h2 {
+  color: white;
+  text-decoration: none;
   color: white;
   font-size: 20px;
   display: inline-flex;
