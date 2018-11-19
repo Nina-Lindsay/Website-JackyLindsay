@@ -1,24 +1,37 @@
-body {
-  background-image: url("../Images/Jacky45.jpg");
-  background-blend-mode: darken;
-  /*background-position: center;*/
-  background-size: cover;
-  font-family: 'Cantarell', sans-serif;
 
+
+body {
+  font-family: 'Cantarell', sans-serif;
+  overflow-x: hidden;
 }
 
 
 .topBar {
   background-color: rgba(0, 0, 0, 0.7);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: cover;
   padding: -10px;
   margin: -10px;
+  overflow-x: hidden;
 
 }
+
+.smaller {
+  font-size: 17px;
+}
+
 
 a {
   text-decoration: none;
   color: white;
+  box-shadow: none;
+  border: none;
+  line-height: initial;
+}
+
+a:hover, a:focus {
+  color: white;
+  text-decoration: none;
 }
 
 h2 {
@@ -37,6 +50,16 @@ text-align: left;
 padding-top: -100px;
 padding-left: 20px;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#titleJL {
+  font-size: 100px;
+}
+
+#topBarJL {
+  color: white;
+  text-outline: white;
+  text-shadow: 2px 2px 4px rgba(24, 1, 21, 0.7);
 }
 
 h3 {
