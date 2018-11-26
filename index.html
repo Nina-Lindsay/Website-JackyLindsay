@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Cantarell" rel="stylesheet">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!-- <style>
     body {
       background-image: url("Images/Jacky45.jpg");
       background-blend-mode: darken;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
       background-size: cover;
+    background-repeat: no-repeat;
     }
-</style>
+</style> -->
 
     <title>Jacky Lindsay</title>
 
@@ -46,20 +47,43 @@ Favicon insertion
 
   </head>
 
-  <body>
+  <body id="index_background">
 
-    <div class="topBar">
-      <h2><a id="topBarJL" href="index.html">J<span class="smaller">ACKY</span> L<span class="smaller">INDSAY</span></a></h2>
-      <h2><a href="index.html">H<span class="smaller">OME</span></a></h2>
-      <h2><a href="about.html">A<span class="smaller">BOUT</span></a></h2>
-      <h2><a href="portfolio.html">P<span class="smaller">ORTFOLIO</span></a></h2>
-      <h2><a href="contact.html">C<span class=smaller>ONTACT</span></a></h2>
 
-    </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" id="topBarJL" href="index.html">J<span class="smaller">ACKY</span> L<span class="smaller">INDSAY</span></a>
+        </div>
+          <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a class="active topBarClass" href="index.html">H<span class="smaller">OME</span></a></li>
+            <li><a class="topBarClass" href="about.html">A<span class="smaller">BOUT</span></a></li>
+            <li><a class="topBarClass" href="portfolio.html">P<span class="smaller">ORTFOLIO</span></a></li>
+            <li><a class="topBarClass" href="contact.html">C<span class=smaller>ONTACT</span></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+  </div>
+    </nav>
+
+
 <br>
 <br>
 <h1 id="titleJL">Jacky Lindsay</h1>
 <h3>Makeup and Body Art</h3>
+<br>
+<br>
+<br>
+<br>
 
   </body>
 

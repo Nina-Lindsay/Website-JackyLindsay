@@ -16,32 +16,64 @@ body {
 
 }
 
+#banner {
+  width: 100%;
+  background-image: url(../images/Jacky28.3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#index_background {
+  background-image: url(../images/Jacky45.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
 .smaller {
   font-size: 17px;
 }
 
 
-a {
+/* a {
   text-decoration: none;
   color: white;
   box-shadow: none;
   border: none;
   line-height: initial;
-}
+} */
 
-a:hover, a:focus {
+/* a:hover, a:focus, .topBarClass:hover, .topBarClass:focus  {
   color: white;
   text-decoration: none;
-}
+} */
 
-h2 {
+.topBarClass {
   color: white;
   text-decoration: none;
   color: white;
   font-size: 20px;
   display: inline-flex;
   padding: 10px 70px 10px 40px;
+  font-family: 'Cantarell', sans-serif;
+  overflow-x: hidden;
+  border-top: none;
+
 }
+
+.active > a, a:hover {
+    background-color: rgba(200, 200, 200, 0.3);
+    outline: medium none;
+    text-decoration: none;
+  }
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+    box-shadow: none;
+    border: none;
+
+  }
 
 h1 {
 color: white;
@@ -50,6 +82,7 @@ text-align: left;
 padding-top: -100px;
 padding-left: 20px;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
 }
 
 #titleJL {
