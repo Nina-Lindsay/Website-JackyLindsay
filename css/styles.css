@@ -5,7 +5,10 @@ body {
   overflow-x: hidden;
 }
 
-
+.aboutp {
+  padding: 50px 0px 0px 0px;
+  font-size: 18px;
+}
 .topBar {
   background-color: rgba(0, 0, 0, 0.7);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -77,10 +80,17 @@ text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.8);
 
 }
 
+
+
+
 .abouth1 {
   color: black;
   text-shadow: none;
   font-size: 40px;
+}
+
+.aboutsmaller {
+  font-size: 45px;
 }
 
 #titleJL {
