@@ -17,12 +17,14 @@ body {
 }
 
 #banner {
-  width: 100%;
+  background-size: cover;
   background-image: url(../images/Jacky28.3.jpg);
   background-position: center;
   background-repeat: no-repeat;
 
 }
+
+
 
 #index_background {
   background-image: url(../images/Jacky45.jpg);
@@ -36,19 +38,6 @@ body {
   font-size: 17px;
 }
 
-
-/* a {
-  text-decoration: none;
-  color: white;
-  box-shadow: none;
-  border: none;
-  line-height: initial;
-} */
-
-/* a:hover, a:focus, .topBarClass:hover, .topBarClass:focus  {
-  color: white;
-  text-decoration: none;
-} */
 
 .topBarClass {
   color: white;
@@ -77,18 +66,29 @@ body {
 
   }
 
+
 h1 {
 color: white;
 font-size: 60px;
-text-align: left;
-padding-top: -100px;
+text-align: center;
+padding-top: 0;
 padding-left: 20px;
-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.8);
 
+}
+
+.abouth1 {
+  color: black;
+  text-shadow: none;
+  font-size: 40px;
 }
 
 #titleJL {
   font-size: 100px;
+}
+
+.titlesmaller {
+  font-size: 80px;
 }
 
 #topBarJL {
@@ -100,16 +100,7 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 h3 {
   color: white;
   font-size: 25px;
-  text-align: left;
+  text-align: center;
   padding: 0 0 0 20px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
-
-/*#jacky1 {
-  display: inline;
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-right: auto;
-  width: 10%;
-
-} */
