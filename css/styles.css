@@ -139,21 +139,44 @@ h3 {
 }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
+/* .carousel-slide .carousel-inner .item {
+    height: 100vh;
+    min-height: 600px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
 
+/* carousel fullscreen - vertically centered caption*/
+
+/* .carousel-fullscreen .carousel-caption {
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%); */
+}
 /* Carousel base class */
 .carousel {
-  height: 600px;
+  height: 800px;
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
+  top:60px;
+  bottom: auto;
+}
+h1.carousel-caption {
+  z-index: 10;
+  font-size: 100px;
+}
+h2.carousel-caption {
   z-index: 10;
   font-size: 50px;
 }
-
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 800px;
+  height: 1000px;
   background-color: black;
 }
 .carousel-inner > .item > img {
