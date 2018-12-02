@@ -5,7 +5,7 @@ body {
   overflow-x: hidden;
 }
 
-.navleft {float:left; width: 50%;} .navright {float:right; width: 50%;} .tabs-inner .widget ul {margin-right: 0px; margin-left: 0px;}
+/* .navleft {float:left; width: 50%;} .navright {float:right; width: 50%;} .tabs-inner .widget ul {margin-right: 0px; margin-left: 0px;} */
 
 nav ul{
   list-style: none;
@@ -21,7 +21,6 @@ nav {
 
 #instagram_icon {
   width: 25px;
-  display: inline-inline-flex;
   padding: 0;
 }
 
