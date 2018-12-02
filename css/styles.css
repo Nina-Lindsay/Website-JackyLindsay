@@ -15,6 +15,9 @@ nav ul{
   justify-content: space-around;
   top: 0;
 }
+nav {
+  top: 0;
+}
 
 #instagram_icon {
   width: 25px;
