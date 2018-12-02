@@ -10,3 +10,5 @@ $("#button").click(function(event) {
   $("#list").append('<li>' + text + '</li>');
 });
 });
+
+$('.carousel').carousel();
