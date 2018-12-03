@@ -1,11 +1,7 @@
-
-
 body {
   font-family: 'Cantarell', sans-serif;
   overflow-x: hidden;
 }
-
-/* .navleft {float:left; width: 50%;} .navright {float:right; width: 50%;} .tabs-inner .widget ul {margin-right: 0px; margin-left: 0px;} */
 
 nav ul{
   list-style: none;
@@ -15,6 +11,7 @@ nav ul{
   justify-content: space-around;
   top: 0;
 }
+
 nav {
   top: 0;
 }
@@ -28,6 +25,7 @@ nav {
   padding: 50px 0px 0px 0px;
   font-size: 18px;
 }
+
 .topBar {
   background-color: rgba(0, 0, 0, 0.7);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -35,7 +33,6 @@ nav {
   padding: -10px;
   margin: -10px;
   overflow-x: hidden;
-
 }
 
 #banner {
@@ -43,24 +40,11 @@ nav {
   background-image: url(../images/Jacky28.3.jpg);
   background-position: center;
   background-repeat: no-repeat;
-
 }
-
-
-
-#index_background {
-  background-color: black;
-  /* background-image: url(../images/Jacky45.jpg);
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat; */
-}
-
 
 .smaller {
   font-size: 17px;
 }
-
 
 .topBarClass {
   color: white;
@@ -72,7 +56,6 @@ nav {
   font-family: 'Cantarell', sans-serif;
   overflow-x: hidden;
   border-top: none;
-
 }
 
 .active > a, a:hover {
@@ -81,14 +64,11 @@ nav {
     text-decoration: none;
   }
 
-
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: transparent;
     box-shadow: none;
     border: none;
-
   }
-
 
 h1 {
 color: white;
@@ -98,11 +78,7 @@ padding-top: 0;
 padding-left: 20px;
 text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.8);
 display: block;
-
 }
-
-
-
 
 .abouth1 {
   color: black;
@@ -141,28 +117,6 @@ h3 {
 }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
-/* .carousel-slide .carousel-inner .item {
-    height: 100vh;
-    min-height: 600px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-/* } */
-
-/* carousel fullscreen - vertically centered caption*/
-
-/* .carousel-fullscreen .carousel-caption {
-    top: 50%;
-    bottom: auto;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%); */
-/* } */
-/* Carousel base class */
-/* .carousel {
-  height: 800px;
-  margin-bottom: 60px;
-} */
 
 .carousel-caption {
   top:100px;
@@ -192,19 +146,6 @@ h2.carousel-caption {
   min-width: 100%;
   max-height:100%;
 }
-/* .gallery {
-  margin: 100px 10px 100px 100px;
-}
-.gallery img {
-  transition: 1s;
-  padding: 15px;
-  width: 500px;
-}
-.gallery img:hover {
-  filter: grayscale(100%);
-  transform: scale(1.1);
-} */
-
 
 .carousel {
     z-index: -99;
@@ -256,30 +197,3 @@ h2.carousel-caption {
   filter: grayscale(100%);
   transform: scale(1.1);
 }
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-    opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-
-    background: #3B5998;
-    color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-    background: #55ACEE;
-    color: white;

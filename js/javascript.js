@@ -1,8 +1,4 @@
-<script type="text/javascript">
-    document.getElementById("learn_more").onclick = function () {
-        location.href = "about.html";
-    };
-</script>
+
 
  $( document ).ready(function() {
 $("#button").click(function(event) {
@@ -10,5 +6,3 @@ $("#button").click(function(event) {
   $("#list").append('<li>' + text + '</li>');
 });
 });
-
-$('.carousel').carousel();
