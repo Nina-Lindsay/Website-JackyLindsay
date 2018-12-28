@@ -1,8 +1,8 @@
+$(document).ready(function() {
+
+$('img-responsive').on('click',function($(this)))
 
 
- $( document ).ready(function() {
-$("#button").click(function(event) {
-  var text = $("#input").val();
-  $("#list").append('<li>' + text + '</li>');
-});
+
+
 });
