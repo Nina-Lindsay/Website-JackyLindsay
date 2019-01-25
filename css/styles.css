@@ -220,7 +220,9 @@ z-index: 10;
   opacity: 1;
 }
 
-
+.filmportfolio {
+  width: 100%;
+}
 
 .text {
   color: white;
