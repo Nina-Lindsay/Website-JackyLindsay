@@ -16,6 +16,14 @@ nav {
   top: 0;
 }
 
+.dropdown-menu {
+background-color: #222222;
+}
+
+#navbarDropdownMenuLink {
+  background-color: #222222;
+}
+
 body, html {height: 100%}
 
 #index_background {
@@ -55,6 +63,21 @@ body, html {height: 100%}
 
 .smaller {
   font-size: 17px;
+
+}
+
+.film-credits {
+  text-align: center;
+  color: white;
+}
+
+.filmpart {
+  background-color: #222222;
+}
+
+
+.dropdown-item {
+  color: white;
 }
 
 .topBarClass {
